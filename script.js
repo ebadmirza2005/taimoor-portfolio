@@ -1,3 +1,6 @@
+// Hamburger Menu on Mobile
+
+
 const hamburger = document.getElementById('hamburger');
   const navLinks = document.getElementById('nav-links');
 
@@ -7,6 +10,8 @@ const hamburger = document.getElementById('hamburger');
   });
 
 
+//   Active Links
+
  let links = document.querySelectorAll(".nav-link");
 
 links.forEach(link => {
@@ -15,6 +20,9 @@ links.forEach(link => {
       this.classList.add("active");
   });
 });
+
+
+// Custom Cursor Only Protfolio
 
 
 let cursor = document.querySelector(".cursor");
